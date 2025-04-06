@@ -6,10 +6,10 @@ terraform {
     }
   }
 }
+
 provider "google" {
   project     = var.project_id
   region      = var.region
   zone        = var.zone
-  credentials = "arielproject-455814-0829087d47ef.json"
-
+  credentials = "YOUR-SA-JSON.json"
 }
